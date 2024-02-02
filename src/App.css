@@ -1,0 +1,507 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto';
+  box-sizing: border-box;
+}
+
+::selection{
+  background-color: #ea202e;
+  color: #fff;
+}
+
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-x{
+  margin-top: 50px;
+}
+.space-y{
+  margin-bottom: 50px;
+}
+
+/* header start */
+
+header{
+  background-image: url(./images/2.jpeg);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 18px;
+}
+
+.lg-img{
+  width: 15%;
+}
+
+.lg-img img{
+  width: 100%;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+.menu ul li{
+  padding-left: 20px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.menu .red{
+  color: red;
+}
+
+/* header end */
+/* slider start */
+
+.p-relative{
+  position: relative;
+}
+
+.p-relative .sld-img{
+  width: 100%;
+}
+
+.p-relative .sid-info{
+  position: absolute;  
+  top: 25%;
+  left: 20%;
+  color: #fff;
+  font-weight: 200;
+  font-size: 150px;
+} 
+
+.maint{
+  position: absolute;
+  left: -8%;
+  font-weight: 700;
+}
+
+/* slider end */
+
+/* about us start */
+
+.us-theme{
+  background-color: #2c2d2e;
+}
+
+.us-info{
+  text-align: center;
+  color: #fff;
+}
+
+.us-info .p-1{
+  margin-top: -5px;
+  padding-top: 80px;
+  font-size: 80px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.us-info .p-2{
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.us-info .p-3{
+  margin: auto;
+  width: 80%;
+  margin-top: 40px;
+  color: #a3a38b;
+  font-size: 17px;
+}
+
+.us-info .us-btn{
+  padding: 20px 55px;
+  background-color: #ea202e;
+  color: #fff;
+  margin-top: 50px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+/* about us end */
+
+/* best service start */
+
+.servise-1{
+  background-color: #2c2d2e;
+  color: #fff;
+}
+
+.servise-1 .ser-img{
+  width: 50%;
+}
+
+.ser-img img{
+  width: 100%;
+}
+
+.ser-info{
+  text-align: center;
+  color: #fff;
+  width: 50%;
+  background-color: #ea202e;
+}
+
+.ser-info .ser-p1{
+  font-size: 80px;
+  font-weight: 100;
+  margin-top: 43px;
+}
+
+.ser-info .ser-p2{
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.ser-info .ser-p3{
+  width: 80%;
+  margin: 40px auto;
+  font-size: 15px;
+  font-weight: 200;
+
+}
+
+.ser-info .ser-btn{
+  padding: 20px 55px;
+  font-size: 15px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.ser-info-2{
+  background-color: #2c2d2e;
+  text-align: center;
+  color: #fff;
+  width: 50%;
+}
+
+.ser-info-2 .ser-p1{
+  font-size: 80px;
+  font-weight: 100;
+  margin-top: 43px;
+}
+
+.ser-info-2 .ser-p2{
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.ser-info-2 .ser-p3{
+  width: 80%;
+  margin: 40px auto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color:#909090;
+
+}
+
+.ser-info-2 .ser-btn{
+  padding: 20px 55px;
+  font-size: 15px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #4c4e50;
+  color: #fff;
+  font-size: 17px;
+}
+
+/* best service end */
+
+/* OUR ADVANTAGES start */
+
+.box-line{
+  margin-top: 40px;
+}
+
+.ad-heading{
+  font-weight: 100;
+  font-size: 80px;
+  text-align: center; 
+  margin-top: 70px;
+}
+.d-flex{
+  display: flex;
+}
+
+.box-1{
+  width: 50%;
+}
+
+.ad-info{
+  text-align: justify;
+}
+
+.box-head{
+  font-size: 28px;
+  text-align: end;
+}
+.box-info{
+  text-align: end;
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-left: 70px;
+}
+
+.ml{
+  margin-left: 30px;
+}
+
+.p-abs{
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  text-align: center;
+  font-size: 45px;
+  color: #ea202e;
+}
+
+.box-head-left{
+  text-align: left;
+  font-size: 28px;
+}
+
+.box-info-left{
+  text-align: left;
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-right: 70px;
+}
+
+.ad-btn{
+  padding: 18px 50px;
+  font-size: 15px;
+  background-color: #4c4e50;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  transform: translate(270%);
+  margin-top: 50px;
+}
+
+/* OUR ADVANTAGES end */
+
+/* OUR SERVICES start */
+
+.bg-img{
+  background-image: url(./images/bg-img.jpeg);
+  /* filter: blur(2px); */
+  padding: 90px 0;
+}
+
+.our-heading{
+  text-align: center;
+  color: #fff;
+}
+
+.our-heading .our-p1{
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.our-heading .our-p2{
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.ser-data{
+  margin: 30px;
+}
+
+.o-box{
+  /* width: 50%; */
+  background-color: rgba(234, 32, 46,0.8);
+  margin: 0 15px;
+}
+
+.o-img{
+  width: 30%;
+}
+
+.o-img img{
+  width: 100%;
+  height: 100%;
+}
+.o-info{
+  width: 70%;
+  color: #fff;
+}
+
+.o-info .b-head{
+ /* width: 50%; */
+ margin-left: 60px;
+ margin-top: 30px;
+ font-size: 28px;
+}
+
+.o-info .b-info{
+  /* width: 80%; */
+  margin: auto;
+  /* text-align: center; */
+  font-size: 16px;
+  padding-left: 17px;
+  padding-top: 17px;
+  padding: 30px;
+  /* margin-left: 30px; */
+}
+
+/* OUR SERVICES end */
+
+/* what our client say start */
+
+.c-heading{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.c-p1{
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.c-p2{
+  font-size: 58px;
+  font-weight: 100;
+}
+
+.c-img{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.c-img img{
+  border-radius: 250px;
+}
+
+.c-abs{
+  position: absolute;
+  top: 90%;
+  left: 30%;
+}
+
+.c-info{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.p-heading{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.p-dif{
+  width: 70%;
+  margin: auto;
+}
+
+/* what our client say end */
+
+/* contact-us start */
+
+.con-bg-img{
+  background-image: url('./images/contact-us.jpeg');
+  padding-bottom: 150px;
+}
+
+.con-heading{
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 70px;
+}
+
+.con-p1{
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.con-p2{
+  font-size: 60px;
+  font-weight: 700;
+}
+.con-p3{
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.call{
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.call .call-abs{
+  position: absolute;
+  left:32%;
+  top:45%;
+  font-size: 60px;
+}
+
+.call-p1{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.social-icon{
+  color: #fff;
+  
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 30px;
+  margin-top: 40px;
+}
+.soc-fa{
+  /* width: 300px;
+  height: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ea202e;
+  padding: 30px 25px;
+}
+
+.soc-tw{
+  /* width: 200px; */
+  /* height: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ea202e;
+  margin: 0 10px;
+  padding: 30px 25px;
+}
+
+.copy{
+  color: #fff;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 14px;
+}
+
+/* contact-us end */
